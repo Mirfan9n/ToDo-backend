@@ -15,6 +15,6 @@ export const errorHandler = (err, req, res, next)=>{
             succes: false,
             message: err.message,
         })
-}
+} 
 
 export default Errorclass;
